@@ -9,6 +9,7 @@
   "title": "Título",
   "youCanAlso": "Você também pode",
   "and": "e",
+  "failedToOpenUrl": "Falha ao abrir a url: {}",
   "blockActions": {
     "addBelowTooltip": "Clique para adicionar abaixo",
     "addAboveCmd": "Alt+clique",
@@ -41,10 +42,14 @@
     "emailHint": "E-mail",
     "passwordHint": "Senha",
     "dontHaveAnAccount": "Não possui uma conta?",
+    "createAccount": "Criar uma conta",
     "repeatPasswordEmptyError": "Senha não pode estar em branco.",
     "unmatchedPasswordError": "As senhas não conferem.",
     "syncPromptMessage": "A sincronização dos dados pode demorar um pouco. Por favor não feche esta página",
     "or": "OU",
+    "signInWithGoogle": "Continuar com Google",
+    "signInWithGithub": "Continuar com Github",
+    "signInWithDiscord": "Continuar com Discord",
     "signInWith": "Entrar com:",
     "LogInWithGoogle": "Entrar com o Google",
     "LogInWithGithub": "Entrar com o Github",
@@ -62,14 +67,17 @@
     "errorActions": {
       "reportIssue": "Reporte um problema",
       "reachOut": "Entre em contato no Discord"
-    }
+    },
+    "createLimitExceeded": "Você atingiu o limite máximo de espaços de trabalho permitidos para sua conta. Se você precisa de espaços de trabalho adicionais para continuar seu trabalho, por favor solicite no Github"
   },
   "shareAction": {
     "buttonText": "Compartilhar",
     "workInProgress": "Em breve",
     "markdown": "Marcador",
     "csv": "CSV",
-    "copyLink": "Copiar link"
+    "copyLink": "Copiar link",
+    "publishToTheWebHint": "Criar um website com AppFlowy",
+    "shareTab": "Compartilhar"
   },
   "moreAction": {
     "small": "pequeno",
@@ -77,7 +85,8 @@
     "large": "grande",
     "fontSize": "Tamanho da fonte",
     "import": "Importar",
-    "moreOptions": "Mais opções"
+    "moreOptions": "Mais opções",
+    "duplicateView": "Duplicar"
   },
   "importPanel": {
     "textAndMarkdown": "Texto e Remarcação",
@@ -95,7 +104,8 @@
     "openNewTab": "Abrir em uma nova guia",
     "moveTo": "Mover para",
     "addToFavorites": "Adicionar aos favoritos",
-    "copyLink": "Copiar link"
+    "copyLink": "Copiar link",
+    "changeIcon": "Mudar ícone"
   },
   "blankPageTitle": "Página em branco",
   "newPageText": "Nova página",
@@ -103,6 +113,10 @@
   "newGridText": "Nova grelha",
   "newCalendarText": "Novo calendário",
   "newBoardText": "Novo quadro",
+  "chat": {
+    "serverUnavailable": "Serviço Temporariamente Indisponível. Por favor, tente novamente mais tarde.",
+    "clickToRetry": "Clique para tentar novamente"
+  },
   "trash": {
     "text": "Lixeira",
     "restoreAll": "Restaurar tudo",
@@ -422,8 +436,8 @@
       "tooltipSelectIcon": "Selecionar ícone",
       "selectAnIcon": "Escolha um ícone",
       "pleaseInputYourOpenAIKey": "por favor insira sua chave AI",
-      "pleaseInputYourStabilityAIKey": "insira sua chave Stability AI",
-      "clickToLogout": "Clique para sair do usuário atual"
+      "clickToLogout": "Clique para sair do usuário atual",
+      "pleaseInputYourStabilityAIKey": "insira sua chave Stability AI"
     },
     "mobile": {
       "personalInfo": "Informações pessoais",
@@ -838,11 +852,11 @@
       },
       "searchForAnImage": "Procurar uma imagem",
       "pleaseInputYourOpenAIKey": "insira sua chave AI na página configurações",
-      "pleaseInputYourStabilityAIKey": "insira sua chave Stability AI na página Configurações",
       "saveImageToGallery": "Salvar imagem",
       "failedToAddImageToGallery": "Falha ao adicionar imagem à galeria",
       "successToAddImageToGallery": "Imagem adicionada à galeria com sucesso",
-      "unableToLoadImage": "Não foi possível carregar a imagem"
+      "unableToLoadImage": "Não foi possível carregar a imagem",
+      "pleaseInputYourStabilityAIKey": "insira sua chave Stability AI na página Configurações"
     },
     "codeBlock": {
       "language": {
